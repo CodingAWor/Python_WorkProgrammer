@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Dependinfo>
+   <Moudle name="ptz">
+        <Library name="libPtz.a" target="Libs/app" mkcmd="makecmd" url="svnp//svn_Ptz_Trunk" reversion="1250" />
+        <Library name="libPtzCivil.a" target="Libs/app" mkcmd="makecmd" url="svnp//svn_Ptz_Trunk" reversion="1240" />
+    </Moudle>
+    <Moudle name="rpcserver">
+        <Library name="librpcserver.a" target="Libs/app" mkcmd="makecmd" url="svnp//svn_librpcserver" reversion="1230" />
+    </Moudle>
+    <Moudle name="function" url="https://new-url.com/submodule" revision="123456">
+        <Library name="libFunction.a" target="Libs/app" mkcmd="makecmd" url="https://new-url.com/submodule" reversion="1250" revision="123456" />
+    </Moudle>
+</Dependinfo>
